@@ -57,7 +57,7 @@ I then created a new dataframe based on the desired date range as shown:
 
 ![image](https://user-images.githubusercontent.com/90977689/138519583-f574fa1b-dcdb-42cb-bb71-00c4ce9037cf.png)
 
-Then I converted the date index into the needed datetime datatype and then created a new data frame by using the resample() function to change to weeks followed by the sum() function.
+Then I converted the date index into the needed datetime datatype using the pd.to_datetime() function and then created a new data frame by using the resample() function to convert to weeks followed by the sum() function to sum the fares into the weeks.
 
 ![image](https://user-images.githubusercontent.com/90977689/138519973-8bee32a7-38ce-4d24-95c6-6ee2ce744b64.png)
 
