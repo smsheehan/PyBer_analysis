@@ -23,6 +23,8 @@ Now that the datasets were combined into a single dataframe, grouping the data b
 
 As we can see from the above image, it is clear that most of PyBer's business, in terms of number of rides, comes from urban cities.  Suburban locations are the next busiest, followed by rural locations.  It is interesting to see that Pyber provides 2.6x more rides in urban vs suburban and 13x more rides in urban vs rural.  
 
+Next, grouping the data by city type and using the count() function on driver_count elucidated the next insight.  The number of drivers per city type follows a similar trend to that of number of rides.  Urban areas had the most number of drivers, followed by suburban, and then rural.  Urban had 4.9x the number of drivers vs suburban and urban had 30.8x the number of drivers vs rural. 
+
 
 ## Summary: 
 Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
