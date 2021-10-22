@@ -12,6 +12,17 @@ The purpose of this analysis was to evaluate ride-sharing data from the fictiona
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 
 
+In order to best present the results, I will also describe the process used to obtain the results.  The PyBer data needed for this analysis exists in two separate .csv files and I first needed to merge the files using the code shown below.  It was important to inspect the data first to ensure a) that the two data sets shared a mutual column to be merged upon, and b) that I knew what the columns were named in each file.
+
+![image](https://user-images.githubusercontent.com/90977689/138496682-98ac7b6a-94b6-4f4e-8ca4-e113f2dc41da.png)
+
+Now that the datasets were combined into a single dataframe, grouping the data by city type and using the count() function on ride_id revealed the first insight of this analysis:
+
+![image](https://user-images.githubusercontent.com/90977689/138497015-6140ca34-afde-4cc3-af66-fb77a5ff874b.png)
+
+
+As we can see from the above image, it is clear that most of PyBer's business, in terms of number of rides, comes from urban cities.  Suburban locations are the next busiest, followed by rural locations.  It is interesting to see that Pyber provides 2.6x more rides in urban vs suburban and 13x more rides in urban vs rural.  
+
 
 ## Summary: 
 Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
