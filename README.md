@@ -64,7 +64,7 @@ Having the requisite dataframe created, I was now able to create the chart:
 
 ![image](https://user-images.githubusercontent.com/90977689/138520242-133d7ac3-0f03-462c-b7f5-56826e137f90.png)
 
-This analysis reveals that while there are fluctuations in data over time, there are no time points where the trend we saw in our earlier analyses are broken.  All three city types experienced an uptick in fares on the February 24th timepoint, but there is not enough contextual information to read anything into this.  Both the urban and suburban data have a fluctuation range of about $750 dollars while the rural data shows a little less variability with a fluctuation range of around $400.
+This analysis reveals that while there are fluctuations in the data over time, there are no time points where the trends we saw in our earlier analyses are broken.  All three city types experienced an uptick in fares on the February 24th timepoint, but there is not enough contextual information to read anything into this.  Both the urban and suburban data have a fluctuation range of about $750 dollars while the rural data shows a little less variability with a fluctuation range of around $400.
 
 
 
