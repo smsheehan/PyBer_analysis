@@ -75,3 +75,8 @@ This analysis reveals that while there are fluctuations in data over time, there
 
 ## Summary: 
 Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
+
+Three business recommendations based on the above analysis are as follows:
+
+### 1. No new investment in hiring additional drivers for Urban cities
+    At least until you analyze the factors that have led to having so many drivers who did not have a single ride.  
