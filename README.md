@@ -4,15 +4,12 @@
 
 ## Overview of the analysis: 
 
-Explain the purpose of the new analysis.
 
 The purpose of this analysis was to evaluate ride-sharing data from the fictional ride-share company, PyBer.  Specifically, our fictional CEO was interested in understanding if any business insights could be gleaned through evaluation of the relationships between city type, fares, and number of drivers.  Additionally, since our data contains detailed information about the date of each individual ride, we were asked to evaluate the data temporally over the first trimester of 2019.  From a skills standpoint, this purpose of this challenge was to explore merging two data sets, demonstrate proficiency with utilization of the groupby() function, and to introduce us to two new functions: pivot() and resample(). 
 
 ## Results: 
-Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 
-
-In order to best present the results, I will also describe the process used to obtain the results.  The PyBer data needed for this analysis exists in two separate .csv files and I first needed to merge the files using the code shown below.  It was important to inspect the data first to ensure a) that the two data sets shared a mutual column to be merged upon, and b) that I knew what the columns were named in each file.
+In order to best present the results, I will also describe the process used to obtain the results.  The PyBer data needed for this analysis exists in two separate .csv files and I first needed to merge the files using the code shown below.  It was important to inspect the data first to ensure a) that the two data sets shared a mutual column to be merged upon, and b) that I knew what the columns were named in each file.  Since this analysis is focused on city type data, either a left join or outer join would be appropriate.  I experimented with all of the join options and in this case given the content of the two data sets, they all provided the same exact outcome for our analysis.
 
 ![image](https://user-images.githubusercontent.com/90977689/138496682-98ac7b6a-94b6-4f4e-8ca4-e113f2dc41da.png)
 
@@ -74,9 +71,17 @@ This analysis reveals that while there are fluctuations in data over time, there
 
 
 ## Summary: 
-Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
 
 Three business recommendations based on the above analysis are as follows:
 
 ### 1. No new investment in hiring additional drivers for Urban cities
-    At least until you analyze the factors that have led to having so many drivers who did not have a single ride.  
+
+At least until you analyze the factors that have led to having so many drivers who did not have a single ride. Are these drivers working enough hours?  As we know, drivers have the ability to decide when and how much they work.  If these "excess drivers" are not working much and thus not available to potential customers, this may signal continued opportunity to grow revenue if we had more available drivers.  If these drivers are in fact available often and just not getting work, this may signal market saturation and a potential opportunity to invest in consumer based marketing to grow revenue.
+
+### 2. Analyze the market demographics of suburban and rural areas
+
+Since in these regions, we know that every driver is getting fares in these city types, some additional analysis and data would be helpful to direct our next steps.  As we know, utilization of ride share services is heavily weighted toward riders of a particular age range.  Understanding what the makeup of these areas are can help us understand whether there is opportunity for additional growth in these areas through the additional hiring of drivers.  Additionally, I would recommend sending a survey to existing customers in this area to understand what factors are most important to them in choosing PyBer.  It could be that wait time is a significant factor in decision of whether or not to use our platform.  If this is the case we would want to further analyze the average wait time for these areas.  A higher density of drivers would reduce wait time and potentially increase revenue.
+
+### 3. Run a targeted experiment in a rural area.
+
+Invest in a campaign to attract more drivers in a targeted rural area and then monitor to see if this leads to an increased number of rides.  This would help provide additional context to the survey and wait time analysis we recommended above.
